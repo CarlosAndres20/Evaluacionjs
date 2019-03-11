@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="css/save-solid.svg" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="Formulario">
+        <h1>Formulario</h1>
+        <form action="form">
+            <p class="Allform">
+                <i class="fas fa-user icon"></i>
+                <input class="validar" type="text" placeholder="Escriba su usuario con minimo 2 caracteres, maximo 6 caracteres" id="name">
+                <label for="name"><span class="Obligatorio">*Campo Obligatorio</span></label>
+            </p>
+            <p class="AllForm">
+                <i class="fas fa-key icon"></i>
+                <input class="validar" type="password" placeholder="Escriba su contraseña minimo 8 caracteres y debe incluir letras en mayuscula, en minuscula y nùmeros" id="password">
+                <label for="password"><span>*Campo Obligatorio</span></label>
+            </p>
+            <p class="AllForm">
+                <i class="fas fa-envelope icon"></i>
+                <input class="validar" type="text" placeholder="Escriba su correo correctamente" id="Email">
+                <label for="Email">
+                    <span>*Campo Obligatorio</span>
+                </label>
+            </p>
+            <p class="AllForm">
+                <i class="fas fa-palette icon"></i>
+                <input class="validar" type="search" placeholder="Seleccione un color" id="paleta">
+                <span>*Campo Obligatorio</span>
+                <label for="search"></label>
+            </p>
+            <p class="AllForm" id="mascotas">
+                <i class="fas fa-paw icon"></i>
+                
+                <input  type="checkbox" aria-checked="checked" required="required" style="border:dotted"> 
+                <span>Perro </span> <br>
+                <input  type="checkbox" aria-checked="checked" required="required"> 
+                <span>Gato</span> <br>
+                <input  type="checkbox" aria-checked="checked" required="required"> 
+                <span>Conejo</span> 
+            </p>
+            <p class="AllForm" id="pago">
+                <br>
+                <i class="fas fa-money-bill-alt icon"></i> 
+                <input  type="radio" aria-checked="checked" required="required"> 
+                <span>Efectivo</span> <br>
+                <input  type="radio" aria-checked="checked" required="required"> 
+                <span>Crèdito</span>  <br>
+            </p>
+            <p class="AllForm">
+                <input class="termino" type="checkbox">
+                <a href="#">Acepto Tèrminos y condiciones</a> 
+                <label for="checkbox"></label>
+            </p>
+            <p class="AllForm">
+                <i class="fas fa-save icon"></i>
+                <a href="revisado.html">
+                <input  class='Enviar' type="submit" ></a>
+                <label for="Enviar"></label>
+            </p>
+        </form>
+    </div>
+</div>
+<script src="js/evaluando.js"></script>
+</body>
+</html>

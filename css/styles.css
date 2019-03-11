@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background: #065513dc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+/* .container{
+        margin: 0 auto;
+        position: relative;
+        
+} */
+.Formulario{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* .Allform{
+} */
+input{
+    border-bottom: 5px solid #054410d5;
+    font-size: 28px;
+    width: 3­00px;
+    border-top: 0 #FFF solid;
+    border-left: 0 #FFF solid;
+    border-right: 0 #FFF solid;
+    margin-top: 10px;
+    
+}
+.Enviar{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 10px;
+}
+.termino{
+    border: 1px solid black;
+    border:dotted;
+}
+.icon{
+    width: 10px;
+    height: 10px;
+}
+span{
+    font-size: 28px;
+}
